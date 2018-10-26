@@ -78,13 +78,12 @@ if(command === "shill") {
 }
 
 if(command === "makeitrain") {
-  message.channel.send(":Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies:", {file: "https://steemitimages.com/0x0/https://media.giphy.com/media/l4HohoaD4wx1LHQXK/giphy.gif"});
+  message.channel.send(":moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag:", {file: "https://steemitimages.com/0x0/https://media.giphy.com/media/l4HohoaD4wx1LHQXK/giphy.gif"});
 }
 
 if(command === "bogged") {
   message.channel.send("DUMP EEEETTTTTTTTTT!", {file: "https://thumbs.gfycat.com/HarmfulSimilarCub-size_restricted.gif"});
 }
-https://thumbs.gfycat.com/HarmfulSimilarCub-size_restricted.gif
 
 if(command === "realsatoshi") {
   message.channel.send("Will the REAL Satoshi please stand up?", {file: "https://steemitimages.com/0x0/https://media.giphy.com/media/l4HohoaD4wx1LHQXK/giphy.gif"});
