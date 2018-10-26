@@ -70,12 +70,45 @@ if(command === "recession") {
 }
 
 if(command === "bitconnect") {
-  message.channel.send("Your crypto is in a better place now... :money_with_wings::money_with_wings: :money_with_wings: :money_with_wings: :money_with_wings: ", {file: "https://media.giphy.com/media/F7Y8JkUEW7jq/giphy.gif"});
+  message.channel.send("Your crypto is in a better place now... :money_with_wings::money_with_wings::money_with_wings::money_with_wings: :money_with_wings: ", {file: "https://media.giphy.com/media/F7Y8JkUEW7jq/giphy.gif"});
 }
 
 if(command === "shill") {
   message.channel.send("Someone looks hungry...", {file: ""});
 }
+if(command === "makeitrain") {
+  message.channel.send(":moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag:", {file: "https://steemitimages.com/0x0/https://media.giphy.com/media/l4HohoaD4wx1LHQXK/giphy.gif"});
+}
+
+if(command === "makeitdoge") {
+  message.channel.send(":dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2:", {file: "http://i.imgur.com/9bVL4eJ.gif"});
+}
+
+if(command === "makeitdoge") {
+  message.channel.send(":dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2:", {file: "http://i.imgur.com/9bVL4eJ.gif"});
+}
+
+if(command === "bogged") {
+  message.channel.send("DUMP EEEETTTTTTTTTT!", {file: "https://thumbs.gfycat.com/HarmfulSimilarCub-size_restricted.gif"});
+}
+
+if(command === "realsatoshi") {
+  message.channel.send("Will the REAL Satoshi please stand up?", {file: "https://steemitimages.com/0x0/https://media.giphy.com/media/l4HohoaD4wx1LHQXK/giphy.gif"});
+}
+
+if(command === "cryptocult") {
+  message.channel.send("I see a lot of new faces in here... \n that means a lot of you have been breaking the rules... \n Rule #1", {file: "https://cdn-images-1.medium.com/max/1200/1*gEAoqJPzuweG9--brS3MeA.gif"});
+}
+
+if(command === "help") {
+
+  message.channel.send("If you don't get it... then you don't get it. \n COMMANDS INCLUDE: \n +bitconnect \n +recession \n +shill \n +btcp \n +eatit \n +marketdown \n +mesooo \n +yummy \n +sendit \n +dukenukem \n +realsatoshi \n +cryptocult \n +bogged \n +makeitrain \n +ping")
+}
+
+if(command === "nephewprotocol") {
+  message.channel.send("CHOOO!!!! CHOO!!!  :train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2:", {file: "https://i.pinimg.com/originals/75/e8/4c/75e84c2a9bc75a097266ca39175c3f2b.gif"});
+}
+  
 
 if(command === "guide") {
   console.log("Servers:")
