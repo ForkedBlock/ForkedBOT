@@ -77,6 +77,41 @@ if(command === "shill") {
   message.channel.send("Someone looks hungry...", {file: ""});
 }
 
+if(command === "guide") {
+  console.log("Servers:")
+    client.guilds.forEach((guild) => {
+        console.log(" - " + guild.name)
+
+        // List all channels
+        guild.channels.forEach((channel) => {
+            console.log(` -- ${channel.name} (${channel.type}) - ${channel.id}`)
+        })
+    })
+}
+if (command === 'money') {
+  let cryptoCurrency = args[0]
+  let symbol = args[1] ? args[1] : 'USD'
+  request(`https://min-api.cryptocompare.com/data/price?fsym=${cryptoCurrency}&tsyms=${symbol}`, function (err, response, body) {
+    if (err) {
+      message.channel.send('' + err + '')
+      return
+    }
+    try {
+      let data = JSON.parse(body)
+      console.log(data)
+      if (!data[symbol]) {
+        message.channel.send('Please select a correct currency or symbol')
+      } else {
+        message.channel.send(`${data[symbol]} ${symbol}`)
+      }
+    } catch (err) {
+      message.channel.send('' + err + '')
+    }
+  })
+}
+// if (command === 'doge') {
+//   request('')
+// }
 
 
 
