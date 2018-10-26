@@ -77,9 +77,26 @@ if(command === "shill") {
   message.channel.send("Someone looks hungry...", {file: ""});
 }
 
+if(command === "makeitrain") {
+  message.channel.send(":Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies::Monies:", {file: "https://steemitimages.com/0x0/https://media.giphy.com/media/l4HohoaD4wx1LHQXK/giphy.gif"});
+}
+
+if(command === "bogged") {
+  message.channel.send("DUMP EEEETTTTTTTTTT!", {file: "https://thumbs.gfycat.com/HarmfulSimilarCub-size_restricted.gif"});
+}
+https://thumbs.gfycat.com/HarmfulSimilarCub-size_restricted.gif
+
+if(command === "realsatoshi") {
+  message.channel.send("Will the REAL Satoshi please stand up?", {file: "https://steemitimages.com/0x0/https://media.giphy.com/media/l4HohoaD4wx1LHQXK/giphy.gif"});
+}
+
+if(command === "cryptocult") {
+  message.channel.send("I see a lot of new faces in here... \n that means a lot of you have been breaking the rules... \n Rule #1", {file: "https://cdn-images-1.medium.com/max/1200/1*gEAoqJPzuweG9--brS3MeA.gif"});
+}
+
 if(command === "help") {
 
-  message.channel.send("If you don't get it... then you don't get it. \n COMMANDS INCLUDE: \n +bitconnect \n +recession \n +shill \n +btcp \n +eatit \n +marketdown \n +mesooo \n +yummy \n +sendit \n +dukenukem \n +ping")
+  message.channel.send("If you don't get it... then you don't get it. \n COMMANDS INCLUDE: \n +bitconnect \n +recession \n +shill \n +btcp \n +eatit \n +marketdown \n +mesooo \n +yummy \n +sendit \n +dukenukem \n +realsatoshi \n +cryptocult \n +ping")
 }
 
 });
