@@ -96,7 +96,7 @@ if(command === "cryptocult") {
 
 if(command === "help") {
 
-  message.channel.send("If you don't get it... then you don't get it. \n COMMANDS INCLUDE: \n +bitconnect \n +recession \n +shill \n +btcp \n +eatit \n +marketdown \n +mesooo \n +yummy \n +sendit \n +dukenukem \n +realsatoshi \n +cryptocult \n +ping")
+  message.channel.send("If you don't get it... then you don't get it. \n COMMANDS INCLUDE: \n +bitconnect \n +recession \n +shill \n +btcp \n +eatit \n +marketdown \n +mesooo \n +yummy \n +sendit \n +dukenukem \n +realsatoshi \n +cryptocult \n +bogged \n +makeitrain \n +ping")
 }
 
 });
