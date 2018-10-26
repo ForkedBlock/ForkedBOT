@@ -70,15 +70,17 @@ if(command === "recession") {
 }
 
 if(command === "bitconnect") {
-  message.channel.send("Your crypto is in a better place now... :money_with_wings::money_with_wings: :money_with_wings: :money_with_wings: :money_with_wings: ", {file: "https://media.giphy.com/media/F7Y8JkUEW7jq/giphy.gif"});
+  message.channel.send("Your crypto is in a better place now... :money_with_wings::money_with_wings::money_with_wings::money_with_wings: :money_with_wings: ", {file: "https://media.giphy.com/media/F7Y8JkUEW7jq/giphy.gif"});
 }
 
 if(command === "shill") {
   message.channel.send("Someone looks hungry...", {file: ""});
 }
 
+if(command === "help") {
 
-
+  message.channel.send("If you don't get it... then you don't get it. \n COMMANDS INCLUDE: \n +bitconnect \n +recession \n +shill \n +btcp \n +eatit \n +marketdown \n +mesooo \n +yummy \n +sendit \n +dukenukem \n +ping")
+}
 
 });
  
