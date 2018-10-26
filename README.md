@@ -1,4 +1,3 @@
-a
 ![alt text](https://github.com/ForkedBlock/ForkedBOT/blob/master/img/forkebotlogo.png "ForkedBOT logo")
 
 # ForkedBOT
