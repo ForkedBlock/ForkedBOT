@@ -1,6 +1,6 @@
 
 Inline-style: 
-![alt text](https://github.com/ForkedBlock/ForkedBOT/img/forkedbotlogo.png "ForkedBOT logo")
+![alt text](https://github.com/ForkedBlock/ForkedBOT/blob/master/img/forkebotlogo.png "ForkedBOT logo")
 
 # ForkedBOT
 I'm a Filthy bot, but I love to party! Let's Do This!
