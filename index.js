@@ -76,7 +76,6 @@ if(command === "bitconnect") {
 if(command === "shill") {
   message.channel.send("Someone looks hungry...", {file: ""});
 }
-
 if(command === "makeitrain") {
   message.channel.send(":moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag:", {file: "https://steemitimages.com/0x0/https://media.giphy.com/media/l4HohoaD4wx1LHQXK/giphy.gif"});
 }
@@ -109,7 +108,40 @@ if(command === "help") {
 if(command === "nephewprotocol") {
   message.channel.send("CHOOO!!!! CHOO!!!  :train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2::train2:", {file: "https://i.pinimg.com/originals/75/e8/4c/75e84c2a9bc75a097266ca39175c3f2b.gif"});
 }
+  
 
+if(command === "guide") {
+  console.log("Servers:")
+    client.guilds.forEach((guild) => {
+        console.log(" - " + guild.name)
+
+        // List all channels
+        guild.channels.forEach((channel) => {
+            console.log(` -- ${channel.name} (${channel.type}) - ${channel.id}`)
+        })
+    })
+}
+if (command === 'money') {
+  let cryptoCurrency = args[0]
+  let symbol = args[1] ? args[1] : 'USD'
+  request(`https://min-api.cryptocompare.com/data/price?fsym=${cryptoCurrency}&tsyms=${symbol}`, function (err, response, body) {
+    if (err) {
+      message.channel.send('' + err + '')
+      return
+    }
+    try {
+      let data = JSON.parse(body)
+      console.log(data)
+      if (!data[symbol]) {
+        message.channel.send('Please select a correct currency or symbol')
+      } else {
+        message.channel.send(`${data[symbol]} ${symbol}`)
+      }
+    } catch (err) {
+      message.channel.send('' + err + '')
+    }
+  })
+}
 
 
 });
