@@ -6,24 +6,43 @@ I'm a Filthy bot, but I love to party! Let's Do This!
 
 ## *Background*
 
+As part of an ongoing effort to better engage our community of ForkedBlock, and to increase the overall experience of our content and events, our team has decided to opensource a Bot project.
 
+ForkedBOT has 2 main objectives:
 
+1. Create a relevant opensource/cryptocurrency bot which taps into the cryptospheres inside jokes
+2. Integrate with crossplatform services to allow for a better integration between modern communications technologies
 
+As an ongoing effort we will improve this bots README.md & other documentation to make it as easy as possible to fork, develop on, and start.
 
+If you are interested in contributing please fell free to browse the issues or commit changes! 
 
+Pre-requisites to following the exact outline below:
+Git
+NodeJS
+npm 
 
-First `git clone` this file into your system
+First open a commandline or bash shell then `git clone` this repository into your system:
 
 ```console
 foo@bar:~$ git clone https://github.com/ForkedBlock/ForkedBOT.git
 ```
-Then install the the bot using `npm install`
+
+Now change into the directory you just created using th `cd` command:
+
+```console
+foo@bar:~$ cd ForkedBOT
+```
+
+Then install the the bot using `npm install`:
 
 ```console
 foo@bar:~$ npm install
 ```
 
-> this bot requires a config.json file with
+> *NOTE:* this bot requires a config.json file with
+
+Create this config.json file using the `touch` command 
 
 ```console
 foo@bar:~$ touch config.json
