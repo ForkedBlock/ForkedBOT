@@ -1,10 +1,10 @@
 ![alt text](https://github.com/ForkedBlock/ForkedBOT/blob/master/img/forkebotlogo.png "ForkedBOT logo")
 
-#ForkedBOT
+# ForkedBOT
 I'm a Filthy bot, but I love to party! Let's Do This!
 
 
-##*Background*
+## *Background*
 
 
 
