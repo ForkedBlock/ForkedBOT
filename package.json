@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.4.2",
-    "forever": "^0.15.3"
+    "forever-monitor": "^1.7.1"
   }
 }

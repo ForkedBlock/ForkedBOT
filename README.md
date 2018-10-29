@@ -17,6 +17,10 @@ As an ongoing effort we will improve this bots README.md & other documentation t
 
 If you are interested in contributing please fell free to browse the issues or commit changes! 
 
+This bot leverages the discord.js package utilize this documentation to learn more:
+
+https://discord.js.org/#/docs/main/stable/general/welcome
+
 Pre-requisites to following the exact outline below:
 Git
 NodeJS
@@ -61,8 +65,23 @@ Paste the json into this file.
 }
 ```
 
-From here this bot should be good to go! simply run the bot using
+From here this bot should be good to go! simply run the bot (for testing) using
 
 ```console
 foo@bar:~$ node index.js
 ```
+
+Easiest way to deploy on a server is to install the forever package which is pulled via the `npm` simply install it globally using this command:
+
+```console
+foo@bar:~$ npm install forever -g
+```
+
+Then start the bot using:
+
+```console
+foo@bar:~$ forever start index.js
+```
+This method will monitor the bot on a deployment server for you. Cosider reviewing the forever js documentation for more info.
+
+https://www.npmjs.com/package/forever
