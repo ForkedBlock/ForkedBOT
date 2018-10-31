@@ -32,6 +32,8 @@ First open a commandline or bash shell then `git clone` this repository into you
 foo@bar:~$ git clone https://github.com/ForkedBlock/ForkedBOT.git
 ```
 
+![alt text](https://github.com/ForkedBlock/ForkedBOT/blob/master/img/gitclone.gif "git clone")
+
 Now change into the directory you just created using th `cd` command:
 
 ```console
