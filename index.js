@@ -84,9 +84,6 @@ if(command === "makeitdoge") {
   message.channel.send(":dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2:", {file: "http://i.imgur.com/9bVL4eJ.gif"});
 }
 
-if(command === "makeitdoge") {
-  message.channel.send(":dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2:", {file: "http://i.imgur.com/9bVL4eJ.gif"});
-}
 
 if(command === "bogged") {
   message.channel.send("DUMP EEEETTTTTTTTTT!", {file: "https://thumbs.gfycat.com/HarmfulSimilarCub-size_restricted.gif"});
