@@ -3,6 +3,8 @@ const {Client, Attachment } = require("discord.js");
 const bot = new Discord.Client();
 const config = require("./config.json");
 var request = require("request");
+const fs = require('fs');
+
 
 bot.on("ready", () => {
   console.log("I'm a filthy bot, but I love to party! Let's Do this shit!");
@@ -14,9 +16,55 @@ bot.on("message", async message => {
   if(message.content === 'hello') {
     message.channel.send('Hi' + message.author);
   }
-  if(message.content.match(/mac|apple/)) {
-    message.channel.send('Get that shit outta here ' + message.author, {file: "https://media.giphy.com/media/eFt0NkDvUhWGk/giphy.gif"})
-  }
+
+  if(message.content === 'help') {
+    const embed = new Discord.RichEmbed()
+      .setColor(0x1D82B6)
+      let commandsFound = 0;
+      for(var cmd in commands) {
+        if(commands[cmd].group.toLowerCase() === 'USER') {
+          commandsFound++
+          embed.addField(`${commands[cmd].name}`, '**Description:**', `${commands[cmd].desc}`,'\n**Usage:**', `${commands[cmd].usage}`);
+        }
+        
+      }
+      embed.setFooter('Currently showing user commands. To view another group do,  ! help [group / command]')
+      embed.setDescription(`${commandsFound}`, 'commands found** - <> means required, [] means optional')
+
+      message.channel.send({embed})
+}
+if (command === 'money') {
+  let cryptoCurrency = args[0]
+  let symbol = 'USD'
+  request(`https://min-api.cryptocompare.com/data/price?fsym=${cryptoCurrency}&tsyms=${symbol}`, function (err, response, body) {
+    if (err) {
+      message.channel.send('' + err + '')
+      return
+    }
+    try {
+      let data = JSON.parse(body)
+      console.log(data)
+      if (!data[symbol]) {
+        message.channel.send('Please select a correct currency or symbol')
+      } else {
+        const embed = new Discord.RichEmbed()
+        message.channel.send({embed: {
+          title: "Token price for " + `${cryptoCurrency}`,
+          color: 3066993,
+          description: `${data[symbol]} ${symbol}`,
+          fields: [{
+            name: "CryptoCompare", 
+            value: "More info at [CryptoCompare](https://www.cryptocompare.com/)"
+          }],
+          url: "https://www.cryptocompare.com/coins/" + `${cryptoCurrency}` + "/overview/usd"
+        }})
+      }
+    } catch (err) {
+      message.channel.send('' + err + '')
+    }
+  })
+}
+
   if(message.content === "ping") {
     const m = await message.channel.send("Ping?");
     m.edit(`Pong! Latency is ${m.createdTimestamp - message.createdTimestamp}ms. API Latency is ${Math.round(bot.ping)}ms`);
