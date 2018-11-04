@@ -1,6 +1,8 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client();
 const config = require("./config.json");
+var request = require("request");
+
 bot.on("ready", () => {
   console.log("I'm a filthy bot, but I love to party! Let's Do this shit!");
 });
