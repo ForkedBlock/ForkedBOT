@@ -1,7 +1,6 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client();
 const config = require("./config.json");
-
 bot.on("ready", () => {
   console.log("I'm a filthy bot, but I love to party! Let's Do this shit!");
 });
@@ -90,7 +89,7 @@ if(command === "guide") {
 }
 if (command === 'money') {
   let cryptoCurrency = args[0]
-  let symbol = args[1] ? args[1] : 'USD'
+  let symbol = 'USD'
   request(`https://min-api.cryptocompare.com/data/price?fsym=${cryptoCurrency}&tsyms=${symbol}`, function (err, response, body) {
     if (err) {
       message.channel.send('' + err + '')
@@ -102,19 +101,25 @@ if (command === 'money') {
       if (!data[symbol]) {
         message.channel.send('Please select a correct currency or symbol')
       } else {
-        message.channel.send(`${data[symbol]} ${symbol}`)
+        const embed = new Discord.RichEmbed()
+        message.channel.send({embed: {
+          title: "Token price for " + `${cryptoCurrency}`,
+          color: 3066993,
+          description: `${data[symbol]} ${symbol}`,
+          fields: [{
+            name: "CryptoCompare", 
+            value: "More info at [CryptoCompare](https://www.cryptocompare.com/)"
+          }],
+          url: "https://www.cryptocompare.com/coins/" + `${cryptoCurrency}` + "/overview/usd"
+        }})
       }
     } catch (err) {
       message.channel.send('' + err + '')
     }
   })
 }
-// if (command === 'doge') {
-//   request('')
-// }
 
 
 
 });
  
-bot.login(config.token);
