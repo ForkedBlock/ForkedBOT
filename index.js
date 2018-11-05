@@ -125,3 +125,4 @@ if (command === 'money') {
 
 });
  
+bot.login(config.token);
