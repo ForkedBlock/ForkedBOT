@@ -4,8 +4,7 @@ const config = require("./config.json");
 var request = require("request");
 
 bot.on("ready", () => {
-  console.log("
-
+console.log(`
 ███████╗ ██████╗ ██████╗ ██╗  ██╗███████╗██████╗ ██████╗  ██████╗ ████████╗
 ██╔════╝██╔═══██╗██╔══██╗██║ ██╔╝██╔════╝██╔══██╗██╔══██╗██╔═══██╗╚══██╔══╝
 █████╗  ██║   ██║██████╔╝█████╔╝ █████╗  ██║  ██║██████╔╝██║   ██║   ██║   
@@ -13,8 +12,8 @@ bot.on("ready", () => {
 ██║     ╚██████╔╝██║  ██║██║  ██╗███████╗██████╔╝██████╔╝╚██████╔╝   ██║   
 ╚═╝      ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═════╝ ╚═════╝  ╚═════╝    ╚═╝   
                                                                            
-
-I'm a filthy bot, but I love to party! Let's Do this shit!");
+`);
+console.log("I'm a filthy bot, but I love to party! Let's Do this shit!");
 });
 
 bot.on("message", async message => {
