@@ -46,11 +46,63 @@ if(command === "sendit") {
   message.channel.send("...........FULL SEND :mailbox_with_mail: ");
 }
 
-
-if(command === "makeitzap") {
-  message.channel.send(":zaplogo: :zaplogo: :zaplogo: :zaplogo: :zaplogo: :zaplogo: :zaplogo: ");
+if(command === "yummy") {
+  message.channel.send("Hey GUY EAT A DICK! :eggplant::eggplant::eggplant::eggplant::eggplant::eggplant::eggplant:");
 }
 
+if(command === "mesooo") {
+  message.channel.send("HORNEYYYYYY");
+}
+
+if(command === "rollercoaster") {
+  message.channel.send(":roller_coaster: :chart_with_upwards_trend: :chart_with_downwards_trend: Damn the market is crazy.... anyone seen Chad? ", {file: "https://i.makeagif.com/media/2-11-2018/Zmfl04.gif"});
+}
+
+if(command === "marketdown") {
+  message.channel.send(":chart_with_downwards_trend::chart_with_downwards_trend::chart_with_downwards_trend: I'm Down... But not out... ", {file: "https://media.giphy.com/media/3o7WIv7ffKW01eNMoU/giphy-downsized-large.gif"});
+}
+
+if(command === "btcp") {
+  message.channel.send("BTCP IS OPENING A NEW WAY!", {file: "https://video.twimg.com/tweet_video/DUzAWSYWkAEGY9g.mp4"});
+}
+
+if(command === "btcp-partduex") {
+  message.channel.send("BTCP IS SUPERMAN", {file: "https://video.twimg.com/tweet_video/DVO3C9sWsAAIxD6.mp4"});
+}
+
+
+if(command === "eatit") {
+  message.channel.send("Someone looks hungry...", {file: ""});
+}
+
+if(command === "recession") {
+  message.channel.send("Someone looks hungry...", {file: ""});
+}
+
+if(command === "bitconnect") {
+  message.channel.send("Your crypto is in a better place now... :money_with_wings::money_with_wings: :money_with_wings: :money_with_wings: :money_with_wings: ", {file: "https://media.giphy.com/media/F7Y8JkUEW7jq/giphy.gif"});
+}
+
+
+if(command === "shill") {
+  message.channel.send("Someone looks hungry...", {file: ""});
+}
+if(command === "makeitrain") {
+  message.channel.send(":moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag::moneybag:", {file: "https://steemitimages.com/0x0/https://media.giphy.com/media/l4HohoaD4wx1LHQXK/giphy.gif"});
+}
+
+if(command === "makeitdoge") {
+  message.channel.send(":dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2::dog2:", {file: "http://i.imgur.com/9bVL4eJ.gif"});
+}
+
+
+if(command === "bogged") {
+  message.channel.send("DUMP EEEETTTTTTTTTT!", {file: "https://thumbs.gfycat.com/HarmfulSimilarCub-size_restricted.gif"});
+}
+
+if(command === "realsatoshi") {
+  message.channel.send("Will the REAL Satoshi please stand up?", {file: "https://steemitimages.com/0x0/https://media.giphy.com/media/l4HohoaD4wx1LHQXK/giphy.gif"});
+}
 
 if(command === "cryptocult") {
   message.channel.send("I see a lot of new faces in here... \n that means a lot of you have been breaking the rules... \n Rule #1", {file: "https://cdn-images-1.medium.com/max/1200/1*gEAoqJPzuweG9--brS3MeA.gif"});
@@ -58,7 +110,7 @@ if(command === "cryptocult") {
 
 if(command === "help") {
 
-  message.channel.send("If you don't get it... then you don't get it. \n COMMANDS INCLUDE: \n +makeitzap \n +cryptocult \n +sendit \n +ping")
+  message.channel.send("If you don't get it... then you don't get it. \n COMMANDS INCLUDE: \n +bitconnect \n +recession \n +shill \n +btcp \n +eatit \n +marketdown \n +mesooo \n +yummy \n +sendit \n +dukenukem \n +realsatoshi \n +cryptocult \n +bogged \n +makeitrain \n +ping")
 }
 
 if(command === "nephewprotocol") {
