@@ -1,6 +1,7 @@
+require('dotenv').config();
 const Discord = require("discord.js");
-const bot = new Discord.Client();
-const config = require("./config.json");
+const bot = new Discord.Client({ intents: ["GUILDS", "GUILD_MESSAGES"] })
+const prefix = process.env.BOT_PREFIX || "+";
 var request = require("request");
 
 bot.on("ready", () => {
@@ -20,9 +21,9 @@ bot.on("message", async message => {
 
   if(message.author.bot) return;
 
-  if(message.content.indexOf(config.prefix) !== 0) return;
+  if(message.content.indexOf(prefix) !== 0) return;
 
-  const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
+  const args = message.content.slice(prefix.length).trim().split(/ +/g);
   const command = args.shift().toLowerCase();
    
   if(command === "ping") {
@@ -166,4 +167,4 @@ if (command === 'money') {
 
 });
  
-bot.login(config.token);
+bot.login(process.env.DISCORD_BOT_TOKEN);
